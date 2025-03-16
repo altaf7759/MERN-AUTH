@@ -13,7 +13,7 @@ const port = process.env.PORT || 4000;
 // Database connection
 connectDB();
 
-const allowedOrigins = ["https://mern-auth-gold-chi.vercel.app/"];
+const allowedOrigins = ["https://mern-auth-gold-chi.vercel.app"];
 
 // Middlewares
 app.use(express.json());
